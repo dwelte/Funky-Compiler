@@ -1,0 +1,65 @@
+Compiled from "Bob.java"
+public class Bob extends java.lang.Object
+  SourceFile: "Bob.java"
+  minor version: 0
+  major version: 49
+  Constant pool:
+const #1 = Method	#5.#14;	//  java/lang/Object."<init>":()V
+const #2 = Field	#15.#16;	//  java/lang/System.out:Ljava/io/PrintStream;
+const #3 = Method	#17.#18;	//  java/io/PrintStream.println:(I)V
+const #4 = class	#19;	//  Bob
+const #5 = class	#20;	//  java/lang/Object
+const #6 = Asciz	<init>;
+const #7 = Asciz	()V;
+const #8 = Asciz	Code;
+const #9 = Asciz	LineNumberTable;
+const #10 = Asciz	main;
+const #11 = Asciz	([Ljava/lang/String;)V;
+const #12 = Asciz	SourceFile;
+const #13 = Asciz	Bob.java;
+const #14 = NameAndType	#6:#7;//  "<init>":()V
+const #15 = class	#21;	//  java/lang/System
+const #16 = NameAndType	#22:#23;//  out:Ljava/io/PrintStream;
+const #17 = class	#24;	//  java/io/PrintStream
+const #18 = NameAndType	#25:#26;//  println:(I)V
+const #19 = Asciz	Bob;
+const #20 = Asciz	java/lang/Object;
+const #21 = Asciz	java/lang/System;
+const #22 = Asciz	out;
+const #23 = Asciz	Ljava/io/PrintStream;;
+const #24 = Asciz	java/io/PrintStream;
+const #25 = Asciz	println;
+const #26 = Asciz	(I)V;
+
+{
+public Bob();
+  Signature: ()V
+  LineNumberTable: 
+   line 1: 0
+
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#1; //Method java/lang/Object."<init>":()V
+   4:	return
+  LineNumberTable: 
+   line 1: 0
+
+public static void main(java.lang.String[]);
+  Signature: ([Ljava/lang/String;)V
+  LineNumberTable: 
+   line 3: 0
+   line 4: 7
+
+  Code:
+   Stack=2, Locals=1, Args_size=1
+   0:	getstatic	#2; //Field java/lang/System.out:Ljava/io/PrintStream;
+   3:	iconst_1
+   4:	invokevirtual	#3; //Method java/io/PrintStream.println:(I)V
+   7:	return
+  LineNumberTable: 
+   line 3: 0
+   line 4: 7
+
+}
+

@@ -1,0 +1,69 @@
+0000000:
+	cafe babe - magic number
+	0000 - minor version number
+	0031 - major version number
+	001b - constant pool count 16+11 = 27
+	0a - tag 1: method reference
+	0005 - class reference
+	000e - name and type description reference
+	09 - tag 2: field reference
+0000010:
+	000f - class reference
+	0010 - name and type description reference
+	0a - tag 3: method reference
+	0011 - class reference
+	0012 - name and type description reference
+	07 - tag 4: class reference
+	0013 - index of String w/ fully qualified name
+	07 - tag 5: class reference
+	0014 - index of String w/ fully qualified nam
+	01 - tag 6: string
+0000020:
+	0006 - string length
+	3c69 6e69 743e - string contents - <init>
+	01 - tag 7: string
+	0003 - string length
+	2829 56 - ()V
+	01 - tag 8: string
+	0004 - string length
+0000030:
+	436f 6465 - Code
+	01 - tag 9: string
+	000f - string length
+	4c69 6e65 4e75 6d62 6572 5461 626c 65  - LineNumberTable
+0000040:
+	01 - tag 10: string
+	0004 - length
+	6d61 696e - main
+	01 - tag 11: string
+	0016 - length
+0000050:
+	285b 4c6a 6176 612f 6c61 6e67 2f53 7472 696e 673b 2956 - ([Ljava/lang/String;)V
+0000060:
+	01 - tag 12: string
+	000a - length
+	536f 7572 6365 4669 6c65 - SourceFile
+0000070:
+	01 - tag 13: string
+	0008 - length
+	426f 622e 6a61 7661 - Bob.java
+	0c - tag 14: nt desc
+0000080:
+	0006 - name index
+	0007 - type index
+0700 150c 0016 0017 0700 180c  ................
+0000090: 0019 001a 0100 0342 6f62 0100 106a 6176  .......Bob...jav
+00000a0: 612f 6c61 6e67 2f4f 626a 6563 7401 0010  a/lang/Object...
+00000b0: 6a61 7661 2f6c 616e 672f 5379 7374 656d  java/lang/System
+00000c0: 0100 036f 7574 0100 154c 6a61 7661 2f69  ...out...Ljava/i
+00000d0: 6f2f 5072 696e 7453 7472 6561 6d3b 0100  o/PrintStream;..
+00000e0: 136a 6176 612f 696f 2f50 7269 6e74 5374  .java/io/PrintSt
+00000f0: 7265 616d 0100 0770 7269 6e74 6c6e 0100  ream...println..
+0000100: 0428 4929 5600 2100 0400 0500 0000 0000  .(I)V.!.........
+0000110: 0200 0100 0600 0700 0100 0800 0000 1d00  ................
+0000120: 0100 0100 0000 052a b700 01b1 0000 0001  .......*........
+0000130: 0009 0000 0006 0001 0000 0001 0009 000a  ................
+0000140: 000b 0001 0008 0000 0024 0002 0001 0000  .........$......
+0000150: 0008 b200 0204 b600 03b1 0000 0001 0009  ................
+0000160: 0000 000a 0002 0000 0003 0007 0004 0001  ................
+0000170: 000c 0000 0002 000d                      ........
