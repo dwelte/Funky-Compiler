@@ -121,6 +121,15 @@ public class FunkyCompiler {
 		else if (operator.equals("-")) {
 			bytes.write(VmConst.ISUB);
 		}
+		else if (operator.equals("*")) {
+			bytes.write(VmConst.IMUL);
+		}
+		else if (operator.equals("%")) {
+			bytes.write(VmConst.IREM);
+		}
+		else if (operator.equals("/")) {
+			bytes.write(VmConst.IDIV);
+		}
 	}
 
 	private static void writeConstantBytes (ByteArrayOutputStream bytes, int constantPosition) {

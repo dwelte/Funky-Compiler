@@ -176,7 +176,7 @@ public class Ast {
 				}
 
 				// Deal w/ operators
-				if ((parseChar == '+') || (parseChar == '-')) {
+				if ((parseChar == '+') || (parseChar == '-') || (parseChar == '*') || (parseChar == '%') || (parseChar == '/')) {
 					if (type != null) {
 						throw new RuntimeException("Parse Error: operator '" + parseChar  + "' where unexpected");
 					}

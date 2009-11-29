@@ -1,0 +1,17 @@
+(deffun fact [x] (if (<=  x 0) 1 (* x (fact (- x 1)))))
+
+(fun fact [x] (if (<=  x 0) 1 (* x (recur (- x 1)))))
+
+plan:
+
+add multiplication and division - integer
+add methods
+add functions
+
+
+
+(loop [x (quote 6 1)] (> (head x) 0) (quote (- (head x) 1) (* (tail x) (head x))))
+
+
+
+
